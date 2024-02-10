@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(34, 34, 34);
+}
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.watch h1{
+    color: white;
+    font-size: 3rem;
+}
+.btns{
+    display: flex;
+    gap: 5%;
+}
+.btns button{
+    background-color: coral;
+    width: 120px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+.btns button:hover{
+    background-color: white;
+    color: coral;
+}
